@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+
+    <style>
+        .container {
+            border: 2px solid black;
+            width: 800px;
+            background-color: rgb(206, 205, 185);
+        }
+
+        .container h4 {
+            color: rgb(207, 108, 108);
+            text-align: center;
+        }
+
+        .first {
+            display: flex;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        b {
+            color: blue;
+        }
+
+        .right {
+            background-color: rgb(196, 62, 62);
+            border: 2px solid black;
+            justify-content: end;
+            margin-left: 120px;
+
+        }
+
+        img {
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .discription {
+            width: 750px;
+            /* border: 2px solid black; */
+            margin: 10px;
+            padding: 10px;
+            text-align: justify;
+        }
+        .discription :hover{
+            /* background-color: blueviolet; */
+        }
+        .form {
+            /* border: 2px solid black; */
+            width: 750px;
+            margin: 10px;
+            padding: 10px;
+        }
+       
+        .form input {
+            width: 740px;
+            height: 30px;
+
+
+        }
+
+        #submit {
+            background-color: green;
+            width: 150px;
+            color: white;
+        }
+
+        #reset {
+            background-color: red;
+            width: 150px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="first">
+            <div class="left">
+                <h3>Your Name: <b> Ravi Roushan jha</b> </h3>
+                <h3>Email: <b>jha882418@gmail.com</b></h3>
+                <h3>Education: <b>Btech CSE</b></h3>
+                <h3>Role: <b>Software Developer</b></h3>
+                <h3>Phone: <b> 8709927337</b></h3>
+                <br>
+                <p>(Using css for styling)</p>
+            </div>
+
+            <div class="right">
+                <img src="image.jpge" alt="image">
+            </div>
+        </div>
+
+        <div class="discription">
+            <h3>Small Description</h3>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, obcaecati. Lorem ipsum dolor sit
+                    amet consectetur.</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus consequuntur obcaecati nulla.
+                    Provident, nemo autem.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt magnam blanditiis modi!</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita iure natus numquam consequuntur
+                    laudantium.</li>
+            </ul>
+        </div>
+
+        <div class="form">
+            <h3>Form:</h3>
+            <div>
+                First Name: <input type="text" name="Name">
+            </div><br>
+            <div>
+                Last Name: <input type="text" name="Name">
+            </div><br>
+            <div>
+                Email: <input type="text" name="Email">
+            </div><br>
+            <div>
+                Contact No: <input type="numner" name="phone">
+            </div><br>
+            <div>
+                Gender: <br><br>
+                Male <input type="radio" name="gender" id="male"> Female <input type="radio" name="gender" id="fenale">
+                Other <input type="radio" name="gender" id="other">
+            </div>
+            <br>
+            <br>
+            <div>
+                Button -> <input type="button" value="Submit" id="submit">
+                <input type="button" value="Reset" id="reset">
+            </div>
+        </div>
+
+
+        <h4>This is just a template, you are free to style</h4>
+    </div>
+
+</body>
+
+</html>
